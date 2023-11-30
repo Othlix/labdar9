@@ -1,0 +1,43 @@
+/* print.css */
+
+body {
+  font-family: 'serif'; /* Use a serif font for better readability on print */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  text-align: left; /* Left-align paragraphs and headings */
+}
+
+img {
+  display: block; /* Ensure images are displayed one after the other */
+  margin: 20px 0; /* Add margin between images */
+}
+
+table {
+  border-collapse: collapse; /* Collapse borders for tables */
+  width: 100%;
+  margin: 20px 0; /* Add margin between tables */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Add borders for table cells */
+  padding: 8px; /* Add padding for better spacing */
+  text-align: left; /* Left-align text in cells */
+}
+
+.hero-btn.print-button {
+  display: none; /* Hide the print button on the printed page */
+}
+
+@media print {
+  img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0; /* Add margin between images */
+  }
+
+  .hero-btn.print-button {
+      display: none; /* Hide the print button on the printed page */
+  }
+}

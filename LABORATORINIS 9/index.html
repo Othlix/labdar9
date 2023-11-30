@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Džiugas Jančiuk</title>
+    <link rel="icon" href="fotkes/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print"> <!-- Include the print-specific CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="">PRADŽIA</a></li>  
+                    <li><a href="#courses">APIE</a></li>  
+                    <li><a href="#camp">FAKTAI</a></li>  
+                    <li><a href="#fac">ĮGŪDŽIAI</a></li>  
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Džiugas Jančiuk</h1>
+            <p>I'M A PROFESSIONAL PHOTOGRAPHER IN NEW YORK CITY</p>
+        </div>
+
+
+    </section>
+
+
+
+<!-----course------>
+<section id="courses" class="course">
+    <h1>Apie</h1>
+    <p>veliau</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>veliau</h3>
+            <p>veliau</p>
+        </div>
+        <div class="course-col">
+            <h3>veliau</h3>
+            <p>veliau</p>
+        </div>
+        <div class="course-col">
+            <h3>veliau</h3>
+            <p>veliau</p>
+        </div>
+    </div>
+
+</section>
+<!-- campus -->
+<section id="camp"class="campus">
+    <h1>Faktai</h1>
+    <p>veliau</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="fotkes/cat.jpg">
+            <div class="layer">
+                <h3>Cet</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="fotkes/cat.jpg">
+            <div class="layer">
+                <h3>Gato</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="fotkes/cat.jpg">
+            <div class="layer">
+                <h3>Kot</h3>
+            </div>
+        </div>
+    </div>        
+</section>
+
+<!-- fasilitys -->
+<section id="fac" class="facilities">
+    <h1>Įgūdžiai</h1>
+    <p>veliau</p>
+    <dic class="row">
+        <div class="facilities-col">
+            <img src="fotkes/giphy.gif">
+            <h3>GIF</h3>
+            <p>Reikėjo ikelti GIF</p>
+        </div>
+        <div class="facilities-col">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1O0yazhqaxs" frameborder="0" allowfullscreen></iframe>
+            <h3>Youtube video</h3>
+            <p>Reikejo ikelti youtube video</p>
+        </div>
+        <div class="facilities-col">
+            <audio controls>
+            <source src="fotkes/222.mp3" type="audio/mp3"></audio>
+            <h3>Audio</h3>
+            <p>Reikejo ikelti audio faila</p>
+        </div>
+    </dic>
+
+</section>
+<!-- testimonials -->
+<section class="testimonials">
+    <h1>veliau</h1>
+    <p>veliau</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="fotkes/7.jpg">
+            <div>
+                <p>veliau</p>
+                <h3>veliau</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="fotkes/8.jpg">
+            <div>
+                <p>veliau</p>
+                <h3>veliau</h3>
+                <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+    </div>
+    
+</section>
+
+
+<!-- call to action -->
+<section class="cta">
+    <h1>veliau <br>veliau</h1>
+    <a href="javascript:window.print()" class="hero-btn print-button">PRINT</a>
+</section>
+
+<!-- footer -->
+<section class="footer">
+    <h4>veliau</h4>
+    <p>veliau <br> veliau</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>veliau <i class="fa fa-heart-o"></i> veliau</p>
+</section>
+
+
+
+    <!-- Add the "Spausdinti" link inside the body section -->
+    <a href="javascript:window.print()" class="hero-btn print-button">Spausdinti</a>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
